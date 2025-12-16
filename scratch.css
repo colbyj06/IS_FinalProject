@@ -1,0 +1,157 @@
+/* Requirement: Custom background color (Argentina Flag Light Blue) */
+body {
+    background-color: #75aadb; 
+    margin: 0;
+    padding: 0;
+    /* Requirement: Style specifying font family */
+    font-family: 'Verdana', Geneva, sans-serif;
+    color: #333;
+}
+
+/* Requirement: Style specifying font color */
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 40px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #75aadb;
+    border-bottom: 2px solid #fcbf49; /* Sun of May yellow */
+    padding-bottom: 10px;
+}
+
+.header-banner {
+    background-color: #5b8db5;
+    text-align: center;
+    border-bottom: 5px solid white;
+}
+
+/* Requirement: At least three divs for positioning and styling */
+
+/* Div 1: Main Container */
+.main-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+/* Div 2: Content Boxes */
+.content-box {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* Div 3: Image styling */
+.photo-section {
+    text-align: center;
+}
+
+.image-wrapper {
+    text-align: center; 
+    margin: 15px 0;
+}
+
+.styled-image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #fcbf49;
+    border-radius: 4px;
+}
+
+.featured-image {
+    height: 300px; 
+    width: 400px; 
+    object-fit: cover;
+}
+
+/* Button Containers */
+.button-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.bottom-nav {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Link Styling */
+a.nav-button {
+    background-color: white;
+    color: #75aadb;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+a.nav-button:hover {
+    background-color: #75aadb;
+    color: white;
+}
+
+/* ============================ */
+/* NEW: CUSTOM NAVIGATION BAR   */
+/* ============================ */
+
+.custom-nav-bar {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto; /* Centers the bar */
+    border-radius: 8px; /* Matches your content boxes */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #75aadb; /* Your theme blue */
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 5px; /* Spacing between links */
+    border-radius: 20px;
+    transition: 0.3s;
+    display: inline-block; /* Allows them to sit side-by-side */
+    border: 2px solid transparent;
+}
+
+.menu-link:hover {
+    background-color: #75aadb;
+    color: white;
+}
+
+/* Highlights the current page */
+.active-page {
+    border: 2px solid #75aadb;
+    background-color: #f0f8ff;
+}
+
+/* ============================ */
+
+.game-promo {
+    background-color: #f8f9fa;
+    border: 1px dashed #75aadb;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Tableau Container */
+.tableau-container {
+    position: relative; 
+    width: 100%; 
+    max-width: 800px; 
+    margin: auto;
+}
